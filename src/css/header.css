@@ -2,29 +2,45 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
+body{
+    background: #191919;
+}
 .container{
     margin: 0 auto; 
     max-width: 1440px;
     width: 100%;
 }
 
+.header{
+    margin: 25px 0px;
+}
+
 .header > .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 0px;
 }
 
 .menu{
     display: flex;
     flex-direction: row;
     gap: 50px;
-
 }
 
 .menu .menu__item{
     display: flex;
+    font-family: "DM Sans", sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
 
+.header h1{
+    font-family: "DM Sans", sans-serif;
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
 }
