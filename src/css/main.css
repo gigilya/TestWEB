@@ -4,7 +4,7 @@ h1{
     font-family: "DM Sans", sans-serif;
     font-size: 70px;
     font-weight: 600;    
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 .welcome > .container{
     display: flex;

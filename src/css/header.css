@@ -42,8 +42,6 @@ body{
 }
 
 .header h1{
-    font-family: "DM Sans", sans-serif;
     font-size: 35px;
-    font-weight: 800;
-    letter-spacing: 2px;
+    font-weight:bolder;
 }
