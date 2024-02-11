@@ -96,3 +96,38 @@ h1{
     line-height: 150%;
     opacity: 0.5;
 }
+.card > .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+    gap: 70px;
+}
+.card__items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.card__items p{
+    color: #118da8;
+    font-size: 15px;
+    font-weight: 400;
+}
+.card__items h5{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    opacity: 0.5;
+}
+.card__items .button{
+    border-radius: 100%;
+    max-width: 112px;
+    width: 100%;
+    max-height: 112px;
+    height: 100vh;
+}
+.card__items > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
