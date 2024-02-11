@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
+
 h1{
     font-family: "DM Sans", sans-serif;
     font-size: 70px;
-    font-weight: lighter;    
+    font-weight: 600;    
     letter-spacing: 5px;
 }
 .welcome > .container{
@@ -20,7 +22,7 @@ h1{
 .icons h6{
     font-family: "DM Sans", sans-serif;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: 600;
     margin: 15px 0px;
 }
 .icons__items{
@@ -50,7 +52,10 @@ h1{
     border: none;
     background: #118DA8;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .episode img{
     border-radius: 10px;
@@ -83,16 +88,16 @@ h1{
     border-radius: 5px;
     width: fit-content;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 0px 15px;
 }
 .episode h6{
     color: #118da8;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .episodes h3{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     opacity: 0.5;
@@ -112,10 +117,10 @@ h1{
 .card__items p{
     color: #118da8;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .card__items h5{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     opacity: 0.5;
@@ -154,9 +159,10 @@ h1{
     height: 80px;
     font-size: 20px;
     padding: 20px;
+    color: aliceblue;
 }
 .subscribe__items p{
     color: #118da8;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
 }
