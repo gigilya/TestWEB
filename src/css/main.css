@@ -1,6 +1,5 @@
 h1{
     font-family: "DM Sans", sans-serif;
-    color: aliceblue;
     font-size: 70px;
     font-weight: lighter;    
     letter-spacing: 5px;
@@ -13,28 +12,87 @@ h1{
     
 }
 .welcome{
-    padding: 50px 0px; 
+    padding: 50px 0px 0px 0px; 
 }
-
 .container > img{
    width: 50%;
 }
-
 .icons h6{
     font-family: "DM Sans", sans-serif;
-    color: aliceblue;
     font-size: 15px;
     font-weight: lighter;
     margin: 15px 0px;
 }
-
 .icons__items{
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
-
  .welcome-desc  {
     width: 500px;
     max-width: 100%;
+}
+.icons{
+    margin-top: 100px;
+}
+.episodes-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 0px;
+    width: 100%;
+}
+.button{
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #118DA8;
+    color: aliceblue;
+    font-size: 15px;
+}
+.episode img{
+    border-radius: 10px;
+    margin: 40px;
+}
+.episode{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    background: #000;
+    margin-bottom: 30px;
+}
+.episodes > .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.episode-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-between;
+}
+.episode h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+.episode h6{
+    color: #118da8;
+    font-size: 20px;
+    font-weight: 400;
+}
+.episodes h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    opacity: 0.5;
 }
