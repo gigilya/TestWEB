@@ -14,7 +14,7 @@
 
     <header class="header">
         <div class="container">
-            <h1>Castaway</h1>
+            <h1 class="title">Castaway</h1>
             <ul class="menu">
                 <a class="menu__item" href=""><li>Home</li></a>
                 <a class="menu__item" href=""><li>Episodes</li></a>
@@ -28,10 +28,10 @@
             <div class="container">
                 <img src="/src/image/Frame.png" alt="negor">
                 <div class="welcome-desc">
-                    <h1>Take your podcast to the next <strong>level</strong></h1>
+                    <h2 class="title">Take your podcast to the next <strong>level</strong></h2>
                     <div class="icons">
                         <h6>Listen on</h6>
-                        <div class="icons__items">
+                        <div class="icons">
                             <img src="/src/icons/spoti.svg" alt="">
                             <img src="/src/icons/icon2.svg" alt="">
                             <img src="/src/icons/icon3.svg" alt="">
@@ -44,56 +44,56 @@
         </section>
         <section class="episodes">
             <div class="container">
-                <div class="episodes-header">
-                    <h1>Latest episodes</h1>
+                <div class="episodes__header">
+                    <h2 class="title">Latest episodes</h2>
                     <button class="button">View all episodes</button>
                 </div>
-                <div class="episode">
+                <div class="episodes__card">
                     <img src="/src/image/case-episode3.png" alt="">
                     <div class="episode-desc">
-                        <h5>Gear</h5>
-                        <h6>Episode 3</h6>
-                        <h1>Should you get outboard audio gear?</h1>
-                        <h3>Is hardware really worth it when it comes to podcasting? 
+                        <span>Gear</span>
+                        <h4>Episode 3</h4>
+                        <h2 class="title">Should you get outboard audio gear?</h2>
+                        <p>Is hardware really worth it when it comes to podcasting? 
                             The answer is...it depends. Here’s our reasons on why you
-                             might want to consider picking something up.</h3>
+                             might want to consider picking something up.</p>
                         <button class="button">View Episode Details</button>
                     </div>
                 </div>
-                <div class="episode">
+                <div class="episodes__card">
                     <img src="/src/image/case-episode2.png" alt="">
                     <div class="episode-desc">
-                        <h5>Tips & Tricks</h5>
-                        <h6>Episode 2</h6>
-                        <h1>Mic tricks to take you to the next level</h1>
-                        <h3>Stop rolling with those default settings on your mic. 
+                        <span>Tips & Tricks</span>
+                        <h4>Episode 2</h4>
+                        <h2 class="title">Mic tricks to take you to the next level</h2>
+                        <p>Stop rolling with those default settings on your mic. 
                             These small tweaks will take you from sounding good 
-                            to great.</h3>
+                            to great.</p>
                         <button class="button">View Episode Details</button>
                     </div>
                 </div>
-                <div class="episode">
+                <div class="episodes__card">
                     <img src="/src/image/case-episode1.png" alt="">
                     <div class="episode-desc">
-                        <h5>Gear</h5>
-                        <h6>Episode 1</h6>
-                        <h1>The best microphone under $200</h1>
-                        <h3>With so many microphones on the market, how are you 
+                        <span>Gear</span>
+                        <h4>Episode 1</h4>
+                        <h2 class="title">The best microphone under $200</h2>
+                        <p>With so many microphones on the market, how are you 
                             supposed to know what’s the best? Take a look at our 
-                            top picks.</h3>
+                            top picks.</p>
                         <button class="button">View Episode Details</button>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="card">
+        <section class="profile">
             <div class="container">
-                <div class="card__items">
+                <div class="profile__items">
                     <div>
                         <button class="button"><img src="/src/icons/ArrowRightAlt.svg" alt=""></button>
                         <p>Meet your host</p>
                     </div>
-                    <h1>Jacob Paulaner</h1>
+                    <h2 class="title">Jacob Paulaner</h2>
                     <h5>Jacob has a background in audio engineering, and has 
                         been podcasting since the early days.</h5>
                     <h5>He’s here to help you level up your game 
@@ -106,18 +106,21 @@
             <div class="container">
                 <div class="subscribe__items">
                     <p>Email Newsletter</p>
-                    <h1>Subscribe for updates</h1>
+                    <h2 class="title">Subscribe for updates</h2>
                 </div>
-                <div class="subscribe__input">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
+                <div class="subscribe__form">
+                    <form>
+                        <input type="text" placeholder="Name">
+                    </form>
+                    <form>
+                        <input type="text" placeholder="Email">
+                    </form>
                     <button class="button">Submit</button>
                 </div>
             </div>
         </section>
         <section class="reviews">
             <div class="container">
-                <div class="reviews__items">
                     <div class="reviews__item">
                         <ul>
                             <li><img src="/src/icons/star.svg" alt=""></li>
@@ -151,8 +154,6 @@
                         <h5>A wealth of audio knowledge</h5>
                         <p>Marcus Brown</p>
                     </div>
-                </div>
-               <div class="reviews__items">
                     <div class="reviews__item">
                         <ul>
                             <li><img src="/src/icons/star.svg" alt=""></li>
@@ -186,44 +187,44 @@
                         <h5>I’ve upped my game considerably since I started listening</h5>
                         <p>Steven Blast</p>
                     </div>
-               </div>
-            </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="footer__items">
-                <h1>Castaway</h1>
-                <ul>
-                    <li><img src="/src/icons/insta.svg" alt=""></li>
-                    <li><img src="/src/icons/twitter.svg" alt=""></li>
-                    <li><img src="/src/icons/facebuck.svg" alt=""></li>
-                </ul> 
+            <div class="footer">
+                <div class="footer__items">
+                    <h2 class="title">Castaway</h2>
+                    <ul>
+                        <li><img src="/src/icons/insta.svg" alt=""></li>
+                        <li><img src="/src/icons/twitter.svg" alt=""></li>
+                        <li><img src="/src/icons/facebuck.svg" alt=""></li>
+                    </ul> 
+                </div>
+               <ul class="footer__item">
+                <a href=""><li>Home</li></a>
+                <a href=""><li>About</li></a>
+                <a href=""><li>Episodes</li></a>
+                <a href=""><li>Contact</li></a>
+               </ul>
+               <ul class="footer__item">
+                <a href=""><li>Style Guide</li></a>
+                <a href=""><li>Instructions</li></a>
+                <a href=""><li>Changelog</li></a>
+                <a href=""><li>Credit</li></a>
+                <a href=""><li>Powered by Webflow</li></a>
+                <a href=""><li>Licenses</li></a>
+               </ul>
+               <div class="icons">
+                <img src="/src/icons/spoti.svg" alt="">
+                <img src="/src/icons/icon2.svg" alt="">
+                <img src="/src/icons/icon3.svg" alt="">
+                <img src="/src/icons/icon4.svg" alt="">
+                <img src="/src/icons/icon5.svg" alt="">
             </div>
-           <ul class="footer__item">
-            <li><p>Home</p></li>
-            <li><p>About</p></li>
-            <li><p>Episodes</p></li>
-            <li><p>Contact</p></li>
-           </ul>
-           <ul class="footer__item">
-            <li><p>Style Guide</p></li>
-            <li><p>Instructions</p></li>
-            <li><p>Changelog</p></li>
-            <li><p>Credit</p></li>
-            <li><p>Powered by Webflow</p></li>
-            <li><p>Licenses</p></li>
-           </ul>
-           <div class="icons__items">
-            <img src="/src/icons/spoti.svg" alt="">
-            <img src="/src/icons/icon2.svg" alt="">
-            <img src="/src/icons/icon3.svg" alt="">
-            <img src="/src/icons/icon4.svg" alt="">
-            <img src="/src/icons/icon5.svg" alt="">
-        </div>
-        </div>
+            </div>
+            </div>
     </footer>
 
-</body>
+</body>я
 
 </html>

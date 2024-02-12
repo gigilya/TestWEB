@@ -41,7 +41,8 @@ body{
     font-size: 20px;
 }
 
-.header h1{
-    font-size: 35px;
-    font-weight:bolder;
+.title{
+    font-size: 70px;
+    font-weight: 800;    
+    letter-spacing: 2px;
 }

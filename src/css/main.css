@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&display=swap');
 
-h1{
-    font-family: "DM Sans", sans-serif;
-    font-size: 70px;
-    font-weight: 600;    
-    letter-spacing: 2px;
-}
 .welcome > .container{
     display: flex;
     justify-content: center;
@@ -25,7 +19,7 @@ h1{
     font-weight: 600;
     margin: 15px 0px;
 }
-.icons__items{
+.icons{
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -37,7 +31,7 @@ h1{
 .icons{
     margin-top: 100px;
 }
-.episodes-header{
+.episodes__header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,8 +40,7 @@ h1{
 }
 .button{
     width: fit-content;
-    padding: 0px 15px;
-    height: 50px;
+    padding: 15px 15px;
     border-radius: 10px;
     border: none;
     background: #118DA8;
@@ -57,10 +50,10 @@ h1{
     font-weight: 600;
     letter-spacing: 2px;
 }
-.episode img{
+.episodes__card img{
     border-radius: 20px;
 }
-.episode {
+.episodes__card {
     display: flex;
     border-radius: 20px;
     background: #000;
@@ -80,7 +73,7 @@ h1{
     flex-direction: column;
     justify-content: space-between;
 }
-.episode h5{
+.episodes__card span{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,48 +84,48 @@ h1{
     font-weight: 600;
     padding: 0px 15px;
 }
-.episode h6{
+.episodes__card h4{
     color: #118da8;
     font-size: 20px;
     font-weight: 600;
 }
-.episodes h3{
+.episodes p{
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     opacity: 0.5;
 }
-.card > .container{
+.profile > .container{
     display: flex;
     justify-content: space-between;
     padding: 200px 0px;
     gap: 70px;
 }
-.card__items{
+.profile__items{
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
 }
-.card__items p{
+.profile__items p{
     color: #118da8;
     font-size: 15px;
     font-weight: 600;
 }
-.card__items h5{
+.profile__items h5{
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     opacity: 0.5;
 }
-.card__items .button{
+.profile__items .button{
     border-radius: 100%;
     max-width: 112px;
     width: 100%;
     max-height: 112px;
     height: 100vh;
 }
-.card__items > div{
+.profile__items > div{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -146,12 +139,12 @@ h1{
     gap: 200px;
     padding: 50px;
 }
-.subscribe .subscribe__input{
+.subscribe .subscribe__form{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.subscribe__input input{
+form input{
     background: #191919;
     border-radius: 10px;
     border: none;
@@ -167,17 +160,18 @@ h1{
     font-weight: 600;
 }
 .reviews > .container{
-    display: flex;  
-    flex-direction: column;
+    display: flex; 
+    flex-wrap: wrap;
     align-items: center;
-    padding: 200px 0px;
-    gap: 50px;
-}
-.reviews__items {
-    display: flex;
     width: 100%;
-    justify-content: space-between;
+
+    padding: 200px 0px;
+    gap: 45px;
 }
+/* .reviews__items {
+    display: flex;
+    
+} */
 .reviews__item{
     display: flex;
     flex-direction: column;
@@ -187,7 +181,6 @@ h1{
     padding: 30px;
     width: 450px;
     height: 350px;
-
 }
 .reviews__item ul{
     display: flex;

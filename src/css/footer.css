@@ -1,4 +1,4 @@
-footer .container{
+.container .footer{
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -9,6 +9,9 @@ footer .container{
     flex-direction: column;
     gap: 10px;
 }   
+.footer__item a{
+    color: aliceblue;
+}
 .footer__items ul{
     display: flex;
     flex-direction: row;
