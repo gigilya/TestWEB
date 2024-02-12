@@ -84,7 +84,7 @@
     font-weight: 600;
     padding: 0px 15px;
 }
-.episodes__card h4{
+.title_secondary{
     color: #118da8;
     font-size: 20px;
     font-weight: 600;
@@ -144,7 +144,7 @@
     flex-direction: column;
     gap: 30px;
 }
-form input{
+.form input{
     background: #191919;
     border-radius: 10px;
     border: none;
