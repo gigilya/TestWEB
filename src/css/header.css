@@ -47,18 +47,22 @@ body{
 .title_xl{
     font-size: 64px;
 }
+
 .title_s {
     color: #118da8;
     font-size: 20px;
 }
+
 .title_xs{
     font-size: 22px;
     opacity: 0.5;
     line-height: 150%;
 }
+
 .title_l{
     font-size: 36px;
 }
+
 .title_m{
     font-size: 18px;
 }

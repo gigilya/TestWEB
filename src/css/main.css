@@ -32,8 +32,8 @@
 }
 
 .welcome-desc {
-    width: 500px;
-    max-width: 100%;
+    max-width:500px; 
+    width: 100%;
 }
 
 .icons {
@@ -110,13 +110,13 @@
     height: 100vh;
 }
 
-.profile__items>div {
+.profile__items > .profile__item{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.subscribe .container {
+.subscribe > .container {
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -136,8 +136,10 @@
     background: #191919;
     border-radius: 10px;
     border: none;
-    width: 520px;
-    height: 80px;
+    max-width: 520px;
+    width: 100%;
+    max-height: 80px;
+    height: 100%;
     font-size: 20px;
     padding: 20px;
     color: aliceblue;
@@ -151,6 +153,7 @@
     padding: 200px 0px;
     gap: 45px;
 }
+
 .reviews__item {
     display: flex;
     flex-direction: column;
@@ -158,8 +161,10 @@
     border-radius: 20px;
     justify-content: space-around;
     padding: 30px;
-    width: 450px;
-    height: 350px;
+    max-width: 450px;
+    width: 100%;
+    max-height: 350px;
+    height: 100%;
 }
 
 .reviews__item ul {
