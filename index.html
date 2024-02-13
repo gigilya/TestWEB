@@ -7,58 +7,224 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/header.css">
-    <title>Document</title>
+    <title>Castaway</title>
 </head>
 
 <body>
 
     <header class="header">
         <div class="container">
-            <h1>Castaway</h1>
+            <h1 class="title">Castaway</h1>
             <ul class="menu">
-                <a class="menu__item" href=""><li>Home</li></a>
-                <a class="menu__item" href=""><li>Episodes</li></a>
-                <a class="menu__item" href=""><li>About</li></a>
-                <a class="menu__item" href=""><li>Contact</li></a>
+                <li><a class="title title_m" href="">Home</a></li>
+                <li><a class="title title_m" href="">Episodes</a></li>
+                <li><a class="title title_m" href="">About</a></li>
+                <li><a class="title title_m" href="">Contact</a></li>
             </ul>
         </div>
     </header>
     <main>
         <section class="welcome">
             <div class="container">
-                <img src="/src/image/Frame.png" alt="negor">
+                <img src="/src/image/Frame.png" alt="people">
                 <div class="welcome-desc">
-                    <h1>Take your podcast to the next <strong>level</strong></h1>
+                    <h2 class="title title_xl">Take your podcast to the next <strong>level</strong></h2>
                     <div class="icons">
-                        <h6>Listen on</h6>
-                        <div class="icons__items">
-                            <img src="/src/icons/spoti.svg" alt="">
-                            <img src="/src/icons/icon2.svg" alt="">
-                            <img src="/src/icons/icon3.svg" alt="">
-                            <img src="/src/icons/icon4.svg" alt="">
-                            <img src="/src/icons/icon5.svg" alt="">
+                        <h6 class="title title_m">Listen on</h6>
+                        <div class="icons__item">
+                            <img src="/src/icons/spoti.svg" alt="icons">
+                            <img src="/src/icons/icon2.svg" alt="icons">
+                            <img src="/src/icons/icon3.svg" alt="icons">
+                            <img src="/src/icons/icon4.svg" alt="icons">
+                            <img src="/src/icons/icon5.svg" alt="icons">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="episodes">
             <div class="container">
-
+                <div class="episodes__header">
+                    <h2 class="title title_xl">Latest episodes</h2>
+                    <button class="button">View all episodes</button>
+                </div>
+                <div class="episodes__card">
+                    <img src="/src/image/case-episode3.png" alt="mixer">
+                    <div class="episode-desc">
+                        <span class="category">Gear</span>
+                        <h4 class="title title_s">Episode 3</h4>
+                        <h2 class="title title_xl">Should you get outboard audio gear?</h2>
+                        <h6 class="title title_xs">Is hardware really worth it when it comes to podcasting? 
+                            The answer is...it depends. Here’s our reasons on why you
+                             might want to consider picking something up.</h6>
+                        <button class="button">View Episode Details</button>
+                    </div>
+                </div>
+                <div class="episodes__card">
+                    <img src="/src/image/case-episode2.png" alt="microphone">
+                    <div class="episode-desc">
+                        <span class="category">Tips & Tricks</span>
+                        <h4 class="title title_s">Episode 2</h4>
+                        <h2 class="title title_xl">Mic tricks to take you to the next level</h2>
+                        <h6 class="title title_xs">Stop rolling with those default settings on your mic. 
+                            These small tweaks will take you from sounding good 
+                            to great.</h6>
+                        <button class="button">View Episode Details</button>
+                    </div>
+                </div>
+                <div class="episodes__card">
+                    <img src="/src/image/case-episode1.png" alt="people">
+                    <div class="episode-desc">
+                        <span class="category">Gear</span>
+                        <h4 class="title title_s">Episode 1</h4>
+                        <h2 class="title title_xl">The best microphone under $200</h2>
+                        <h6 class="title title_xs">With so many microphones on the market, how are you 
+                            supposed to know what’s the best? Take a look at our 
+                            top picks.</h6>
+                        <button class="button">View Episode Details</button>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
+        <section class="profile">
             <div class="container">
-
+                <div class="profile__items">
+                    <div class="profile__item">
+                        <button class="button"><img src="/src/icons/ArrowRightAlt.svg" alt="ArrowRightAlt"></button>
+                        <h6 class="title title_s">Meet your host</h6>
+                    </div>
+                    <h2 class="title title_xl">Jacob Paulaner</h2>
+                    <h6 class="title title_xs">Jacob has a background in audio engineering, and has 
+                        been podcasting since the early days.</h6>
+                    <h6 class="title title_xs">He’s here to help you level up your game 
+                        by sharing everything he’s learned along the way.</h6>    
+                </div>
+                <img src="/src/image/img-card.png" alt="people">
             </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <div class="subscribe__items">
+                    <h6 class="title title_s">Email Newsletter</h6>
+                    <h2 class="title title_xl">Subscribe for updates</h2>
+                </div>
+                <div class="subscribe__form">
+                    <form class="form">
+                        <input class="form__input" type="text" placeholder="Name">
+                    </form>
+                    <form class="form">
+                        <input class="form__input" type="text" placeholder="Email">
+                    </form>
+                    <button class="button">Submit</button>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">I can’t recommend this podcast enough</h5>
+                        <h6 class="title title_xs">Betty Lacey</h6>
+                    </div>
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">Jacob is the best in the business</h5>
+                        <h6 class="title title_xs">Adam Driver</h6>
+                    </div>
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">A wealth of audio knowledge</h5>
+                        <h6 class="title title_xs">Marcus Brown</h6>
+                    </div>
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">Every episode is a gem!</h5>
+                        <h6 class="title title_xs">Jessica Knowl</h6>
+                    </div>
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">Whoa whoa, let me take some notes!</h5>
+                        <h6 class="title title_xs">Scott Adams</h6>
+                    </div>
+                    <div class="reviews__item">
+                        <ul>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                            <li><img src="/src/icons/star.svg" alt="star"></li>
+                        </ul>
+                        <h5 class="title title_l">I’ve upped my game considerably since I started listening</h5>
+                        <h6 class="title title_xs">Steven Blast</h6>
+                    </div>
         </section>
     </main>
     <footer>
         <div class="container">
-
-        </div>
+            <div class="footer">
+                <div class="footer__items">
+                    <h2 class="title">Castaway</h2>
+                    <ul>
+                        <li><img src="/src/icons/insta.svg" alt="instagram"></li>
+                        <li><img src="/src/icons/twitter.svg" alt="twitter"></li>
+                        <li><img src="/src/icons/facebuck.svg" alt="facebuck"></li>
+                    </ul> 
+                </div>
+               <ul class="footer__item">
+                <li><a class="title title_m" href="">Home</a></li>
+                <li><a class="title title_m" href="">About</a></li>
+                <li><a class="title title_m" href="">Episodes</a></li>
+                <li><a class="title title_m" href="">Contact</a></li>
+               </ul>
+               <ul class="footer__item">
+                <li><a class="title title_m" href="">Style Guide</a></li>
+                <li><a class="title title_m" href="">Instructions</a></li>
+                <li><a class="title title_m" href="">Changelog</a></li>
+                <li><a class="title title_m" href="">Credit</a></li>
+                <li><a class="title title_m" href="">Powered by Webflow</a></li>
+                <li><a class="title title_m" href="">Licenses</a></li>
+               </ul>
+               <div class="icons__item">
+                <img src="/src/icons/spoti.svg" alt="icon">
+                <img src="/src/icons/icon2.svg" alt="icon">
+                <img src="/src/icons/icon3.svg" alt="icon">
+                <img src="/src/icons/icon4.svg" alt="icon">
+                <img src="/src/icons/icon5.svg" alt="icon">
+            </div>
+            </div>
+            </div>
     </footer>
 
-</body>
+</body>я
 
 </html>
