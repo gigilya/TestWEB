@@ -9,9 +9,6 @@
     flex-direction: column;
     gap: 10px;
 }   
-.footer__item a{
-    color: aliceblue;
-}
 .footer__items ul{
     display: flex;
     flex-direction: row;
@@ -20,7 +17,4 @@
 .footer__items{
     display: flex;
     flex-direction: column;
-}
-.footer__items h1{
-    font-size: 50px;
 }

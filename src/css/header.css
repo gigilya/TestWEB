@@ -13,10 +13,6 @@ body{
     margin: 0 auto; 
     max-width: 1440px;
     width: 100%;
-    color: aliceblue;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 600;
-    letter-spacing: 2px;
 }
 
 .header{
@@ -33,9 +29,7 @@ body{
     flex-direction: row;
     gap: 50px;
 }
-
-.menu .menu__item{
-    display: flex;
+.menu__item{
     font-family: "DM Sans", sans-serif;
     color: aliceblue;
     font-size: 20px;
@@ -45,4 +39,26 @@ body{
     font-size: 70px;
     font-weight: 800;    
     letter-spacing: 2px;
+    color: aliceblue;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.title_xl{
+    font-size: 64px;
+}
+.title_s {
+    color: #118da8;
+    font-size: 20px;
+}
+.title_xs{
+    font-size: 22px;
+    opacity: 0.5;
+    line-height: 150%;
+}
+.title_l{
+    font-size: 36px;
+}
+.title_m{
+    font-size: 18px;
 }
