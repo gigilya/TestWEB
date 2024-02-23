@@ -2,6 +2,7 @@
     .container{
         max-width: 1280px;
     }
+    
     .image{
         max-width:60%;
     }
@@ -10,6 +11,7 @@
     .container{
         max-width: 1024px;
     }
+
     .image{
         max-width:50%;
         width: 100%;
@@ -20,29 +22,33 @@
         max-width: 768px;
         align-items: center;
     }
+
     .image{
         max-width:70%;
         height: 90%;
     }
+
     .reviews>.container{
         justify-content: center;
     }
+
     .episodes__card{
         flex-direction: column;
     }
+
     .episode-desc{
         align-items: center;
     }
-    .header .container{
-        flex-direction: column;
-    }
+
     .subscribe > .container {
         align-items: center;
         flex-direction: column;
     }
+
     .subscribe__form {
         align-items: center;
     }
+
     .profile>.container>img{
         width: 60%;
     }
@@ -51,23 +57,64 @@
     .container{
         max-width: 480px;
     }
-    .welcome>.container{
-        flex-direction: column;
+
+    .container h1{
+        padding-left: 175px;
     }
-    .episodes__card{
-        flex-direction: column;
-    }
-    .episode-desc{
-        align-items: center;
-    }
+
     .icons {
         margin-top: 50px;
         align-items: center;
     }
+
+    .header__burger-btr{
+        display: flex;
+        position: absolute;
+    }
+
+    .menu{
+        position: absolute;
+        padding: 300px 50px 10px 20px;
+        background: #000;
+        left: -300px;
+        transition: transform .5s;
+    }
+    
+    .header.open .menu{
+        transform: translateX(0px);
+    }
+
+    .menu_ac    tive{
+        transform: translateX(350px);  
+    }
+
+    .menu__list{
+        display: block;
+    }
+
+    .menu__list-item{
+        display: block;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .welcome>.container{
+        flex-direction: column;
+    }
+
+    .episodes__card{
+        flex-direction: column;
+    }
+
+    .episode-desc{
+        align-items: center;
+    }
+
     .episodes__header{
         flex-direction: column;
         gap: 20px;
     }
+
     .profile>.container{
         flex-direction: column;
     }
@@ -75,9 +122,11 @@
     .profile__items > .profile__item{
         align-items: center;
     }
+
     .profile>.container>img{
         width: 60%;
     }
+
     .container .footer{
         flex-direction: column;
         align-items: center;
@@ -87,9 +136,11 @@
     .container{
         max-width: 350px;
     }
+
     .episodes__card img{
         width: 60%;
     } 
+
     .profile>.container>img{
         width: 100%;
     }
