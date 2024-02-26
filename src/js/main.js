@@ -6,9 +6,15 @@
 const menu = document.getElementById("menu")
 const burger = document.getElementById("burger")
 const body = document.getElementById("body")
+const link = document.querySelectorAll(".menu__list-item")
+
+link.forEach(element => {
+    element.addEventListener("click", () => {
+        menu.classList.remove("menu_active")
+        body.classList.remove("body_fixed")});
+    });
+
 burger.addEventListener("click", () => {
     menu.classList.toggle("menu_active")
-})
-burger.addEventListener("click", () => {
     body.classList.toggle("body_fixed")
-})
+});
