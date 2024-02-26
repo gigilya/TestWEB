@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/adaptive.css">
+    <script defer src="/src/js/main.js"></script>
     <title>Castaway</title>
 </head>
 
-<body>
-
+<body class="body" id="body">
     <header class="header">
         <div class="container">
             <h1 class="title">Castaway</h1>
-            <ul class="menu">
-                <li><a class="title title_m" href="">Home</a></li>
-                <li><a class="title title_m" href="">Episodes</a></li>
-                <li><a class="title title_m" href="">About</a></li>
-                <li><a class="title title_m" href="">Contact</a></li>
-            </ul>
+            <nav class="menu" id="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a class="title title_m" href="">Home</a></li>
+                    <li class="menu__list-item"><a href="#Episodes" class="title title_m" href="">Episodes</a></li>
+                    <li class="menu__list-item"><a href="#About" class="title title_m" href="">About</a></li>
+                    <li class="menu__list-item"><a href="#Contact" class="title title_m" href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header__burger-btr" id="burger">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </header>
     <main>
@@ -43,7 +48,7 @@
                 </div>
             </div>
         </section>
-        <section class="episodes">
+        <section class="episodes" id="Episodes">
             <div class="container">
                 <div class="episodes__header">
                     <h2 class="title title_xl">Latest episodes</h2>
@@ -87,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="profile">
+        <section class="profile" id="About">
             <div class="container">
                 <div class="profile__items">
                     <div class="profile__item">
@@ -190,7 +195,7 @@
                     </div>
         </section>
     </main>
-    <footer>
+    <footer id="Contact">
         <div class="container">
             <div class="footer">
                 <div class="footer__items">
